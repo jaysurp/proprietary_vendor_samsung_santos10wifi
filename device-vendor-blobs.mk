@@ -69,4 +69,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/firmware/bcmdhd_apsta.bin_b2:system/vendor/firmware/bcmdhd_apsta.bin_b2 \
     $(LOCAL_PATH)/proprietary/vendor/firmware/bcmdhd_sta.bin_b2:system/vendor/firmware/bcmdhd_sta.bin_b2 \
-    $(LOCAL_PATH)/proprietary/vendor/firmware/bcmdhd_p2p.bin_b2:system/vendor/firmware/bcmdhd_p2p.bin_b2
+    $(LOCAL_PATH)/proprietary/vendor/firmware/bcmdhd_p2p.bin_b2:system/vendor/firmware/bcmdhd_p2p.bin_b2 \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/nvram_net.txt:system/vendor/firmware/nvram_net.txt
