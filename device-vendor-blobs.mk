@@ -46,6 +46,23 @@ PRODUCT_COPY_FILES += \
 #!!! Copy by hand, conflicts with opensource pvr_drv_video
 #    $(LOCAL_PATH)/proprietary/system/lib/pvr_drv_video.so:system/lib/pvr_drv_video.so \
 
+# Sensors
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/bin/geomagneticd:system/bin/geomagneticd \
+    $(LOCAL_PATH)/proprietary/system/bin/orientationd:system/bin/orientationd \
+    \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/sensors.default.so:system/vendor/lib/hw/sensors.default.so \
+
+# GPS
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/bin/gpsd:system/bin/gpsd \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libsecril-client.so:system/vendor/lib/libsecril-client.so \
+    \
+    $(LOCAL_PATH)/proprietary/system/etc/gps.conf:system/etc/gps.conf \
+    $(LOCAL_PATH)/proprietary/system/etc/gps.xml:system/etc/gps.xml \
+    \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/gps.default.so:system/vendor/lib/hw/gps.default.so
+
 ###### FIRMWARES ######
 
 # Wifi
