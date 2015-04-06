@@ -63,10 +63,6 @@ PRODUCT_COPY_FILES += \
     \
     $(LOCAL_PATH)/proprietary/vendor/lib/hw/gps.default.so:system/vendor/lib/hw/gps.default.so
 
-# IR
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/vendor/lib/hw/consumerir.default.so:system/vendor/lib/hw/consumerir.default.so
-
 ###### FIRMWARES ######
 
 # Wifi
