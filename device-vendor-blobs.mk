@@ -71,3 +71,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/firmware/bcmdhd_sta.bin_b2:system/vendor/firmware/bcmdhd_sta.bin_b2 \
     $(LOCAL_PATH)/proprietary/vendor/firmware/bcmdhd_p2p.bin_b2:system/vendor/firmware/bcmdhd_p2p.bin_b2 \
     $(LOCAL_PATH)/proprietary/vendor/firmware/nvram_net.txt:system/vendor/firmware/nvram_net.txt
+
+# Bluetooth
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/bcm4334.hcd:system/vendor/firmware/bcm4334.hcd \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/bcm4334_murata.hcd:system/vendor/firmware/bcm4334_murata.hcd \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/bcm4334_semco.hcd:system/vendor/firmware/bcm4334_semco.hcd
