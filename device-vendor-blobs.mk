@@ -41,10 +41,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmixvbp.so:system/vendor/lib/libmixvbp.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmixvbp_h264.so:system/vendor/lib/libmixvbp_h264.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmixvbp_mpeg4.so:system/vendor/lib/libmixvbp_mpeg4.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libmixvbp_vc1.so:system/vendor/lib/libmixvbp_vc1.so
-
-#!!! Copy by hand, conflicts with opensource pvr_drv_video
-#    $(LOCAL_PATH)/proprietary/system/lib/pvr_drv_video.so:system/lib/pvr_drv_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmixvbp_vc1.so:system/vendor/lib/libmixvbp_vc1.so \
+    \
+    $(LOCAL_PATH)/proprietary/system/lib/pvr_drv_video.so:system/lib/pvr_drv_video.so
 
 # Sensors
 PRODUCT_COPY_FILES += \
