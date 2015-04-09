@@ -76,3 +76,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/firmware/bcm4334.hcd:system/vendor/firmware/bcm4334.hcd \
     $(LOCAL_PATH)/proprietary/vendor/firmware/bcm4334_murata.hcd:system/vendor/firmware/bcm4334_murata.hcd \
     $(LOCAL_PATH)/proprietary/vendor/firmware/bcm4334_semco.hcd:system/vendor/firmware/bcm4334_semco.hcd
+
+# Camera
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/shisp_css15.bin:system/vendor/firmware/shisp_css15.bin
