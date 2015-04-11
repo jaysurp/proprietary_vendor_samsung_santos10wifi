@@ -1,7 +1,13 @@
 # Houdini
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.dalvik.vm.native.bridge=libhoudini.so
+
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.dalvik.vm.isa.arm=x86 \
     ro.enable.native.bridge.exec=1
+
+PRODUCT_COPY_FILES += \
+    vendor/samsung/santos10wifi/rootdir/init.houdini.rc:root/init.houdini.rc
 
 # Set build fingerprint / ID / Prduct Name ect.
 PRODUCT_BUILD_PROP_OVERRIDES += \
