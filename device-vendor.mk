@@ -1,3 +1,8 @@
+# Houdini
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.dalvik.vm.isa.arm=x86 \
+    ro.enable.native.bridge.exec=1
+
 # OMX packages
 PRODUCT_PACKAGES += \
     libstagefrighthw \
